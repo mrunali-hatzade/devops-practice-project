@@ -1,6 +1,7 @@
-node_modules
-# Common ignore patterns for frontend
-# Build output
+# Common ignore patterns for backend
+# Node modules
+node_modules/
+# Build output (if any)
 dist/
 build/
 # Environment files
