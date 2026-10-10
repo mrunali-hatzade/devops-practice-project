@@ -1,4 +1,4 @@
-yaml
+
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 
@@ -14,7 +14,7 @@ spec:
 
   source:
 
-    repoURL: https://github.com/YOUR_GITHUB_USERNAME/student-task-manager.git
+    repoURL: https://github.com/mrunali-hatzade/devops-practice-project.git
 
     targetRevision: main
 
