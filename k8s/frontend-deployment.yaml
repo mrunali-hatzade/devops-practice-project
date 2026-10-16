@@ -24,7 +24,7 @@ spec:
 
         - name: frontend
 
-          image: mrunalihatzade/frontend-image:latest
+          image: mrunalihatzade/student-task-frontend:latest
 
           imagePullPolicy: Always
 

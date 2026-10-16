@@ -25,7 +25,7 @@ spec:
 
         - name: backend
 
-          image: mrunalihatzade/backend-image:latest
+          image: mrunalihatzade/student-task-backend:latest
 
           imagePullPolicy: Always
 
