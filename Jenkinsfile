@@ -98,7 +98,7 @@ pipeline {
 
                 withCredentials([
                     usernamePassword(
-                        credentialsId: "Github-credentials",
+                        credentialsId: "docker-hub-token",
                         usernameVariable: "DOCKER_USERNAME",
                         passwordVariable: "DOCKER_PASSWORD"
                     )
@@ -219,7 +219,7 @@ pipeline {
 
                 withCredentials([
                     gitUsernamePassword(
-                        credentialsId: "github-push-cred",
+                        credentialsId: "Github-credentials",
                         gitToolName: "Default"
                     )
                 ]) {
